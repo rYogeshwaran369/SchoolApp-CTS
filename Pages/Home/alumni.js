@@ -11,7 +11,7 @@ const Top = StatusBar.currentHeight;
 
 export default function AlumniPage() {
   return (
-    <SafeAreaView style={{ marginTop: Top, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
+    <SafeAreaView style={{ marginTop: Top+50, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
 
       {/* Top Bar */}
       <View style={{ height: 55, borderWidth: 1, width: '100%', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row', padding: '2%' }}>
@@ -26,7 +26,7 @@ export default function AlumniPage() {
      <Text style={{fontSize:18,zIndex:-2,padding:10}}>Make Your self Upto Date</Text>
 
       <View style={{ borderBottomWidth: 1,zIndex:-2 }}>
-        <ScrollView>
+        <ScrollView style={{marginBottom:"30%"}}>
               <Alumni/>
               <Alumni/>
               <Alumni/>

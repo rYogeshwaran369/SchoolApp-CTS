@@ -7,6 +7,7 @@ export default function Status() {
   return (
     <View style={{justifyContent:"center",alignItems:"center",}}>
    <View style={Style.Status}>
+    <Image source={{uri:"https://static.kiit.ac.in/news/2020/12/3-8.jpg"}} style={{width:70,height:70,borderRadius:50}}/>
             
    </View>
 
