@@ -7,8 +7,17 @@ const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = useNavigation();
 
-  const handleLogin = () => {
+  const handleCareer = () => {
     navigation.navigate('CareerPage');
+  };
+  const handleSports = () => {
+    navigation.navigate('SportsPage');
+  };
+  const handleAlumni = () => {
+    navigation.navigate('AlumniPage');
+  };
+  const handleHome = () => {
+    navigation.navigate('Postpage');
   };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -26,16 +35,21 @@ const HamburgerMenu = () => {
 
       {isOpen && (
         <View style={styles.menu}>
-          <TouchableOpacity onPress={handleLogin} style={styles.menuItem}>
+          
+           <TouchableOpacity onPress={handleHome} style={styles.menuItem}>
+            <Text style={styles.menuItemText}>Home</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={handleCareer} style={styles.menuItem}>
             <Text style={styles.menuItemText}>Career Guidance</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.menuItem}>
-            <Text style={styles.menuItemText}>Option 2</Text>
+          <TouchableOpacity onPress={handleSports} style={styles.menuItem}>
+            <Text style={styles.menuItemText}>Sports</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.menuItem}>
-            <Text style={styles.menuItemText}>Option 3</Text>
+          <TouchableOpacity onPress={handleAlumni} style={styles.menuItem}>
+            <Text style={styles.menuItemText}>AlumniNetwork</Text>
           </TouchableOpacity>
         </View>
       )}
@@ -53,10 +67,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 50,
     right: 10,
-    backgroundColor: 'green',
+    backgroundColor: 'white',
     borderRadius: 5,
     padding: 10,
     elevation: 2,
+    borderWidth:1
   },
   menuItem: {
     paddingVertical: 10,

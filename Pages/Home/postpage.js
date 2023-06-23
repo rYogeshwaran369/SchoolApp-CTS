@@ -20,8 +20,8 @@ export default function PostPage() {
       </View>
 
       {/* Status */}
-      <View style={{width:400, borderBottomWidth: 1 ,zIndex:-2}}>
-        <ScrollView horizontal={true} >
+      <View style={{display:"flex" ,flexDirection:"row", borderBottomWidth: 1 ,zIndex:-2}}>
+        <ScrollView horizontal={true} style={{width:"100%"}} >
           <Status />
           <Status />
           <Status />

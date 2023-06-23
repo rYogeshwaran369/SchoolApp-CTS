@@ -3,7 +3,7 @@ import { View,Text,Image } from 'react-native'
 
 export default function Sports() {
   return (
-    <View style={{width:"100%",height:345,borderRadius:10,borderWidth:1,alignItems:"center",marginBottom:"2%"}}>
+    <View style={{width:300,height:345,borderRadius:10,borderWidth:1,alignItems:"center",marginBottom:"2%"}}>
         <View style={{width:"100%",borderRadius:10,height:158,backgroundColor:"green"}}>
             <Image source={{uri:"https://th.bing.com/th?id=OIF.EJRDn4OU1KJA5I%2f5RAG34A&pid=ImgDet&rs=1"}} style={{width:"100%",height:158}}/>
         </View>

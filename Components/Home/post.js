@@ -26,7 +26,7 @@ export default function Post() {
             <Text style={{fontSize:15}}>Today Annual day function in our school</Text>
            
             <View style={{width:330,height:280,backgroundColor:"black",marginTop:"3%",borderWidth:1}}>
-                <Image source={{uri:'https://img.freepik.com/free-vector/illustration-university-graduates_53876-28466.jpg?w=1380&t=st=1687267409~exp=1687268009~hmac=8ed5afe99371845479f03e8758a725cb19af909694d242a8d4769c7d96cc5e6a'}} style={{width:330,height:280}}/>
+                <Image source={{uri:'https://static.kiit.ac.in/news/2020/12/3-8.jpg'}} style={{width:330,height:280}}/>
             </View>
         </View>
 

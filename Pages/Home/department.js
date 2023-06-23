@@ -10,7 +10,7 @@ const Top = StatusBar.currentHeight;
 
 export default function DepartmentPage() {
   return (
-    <SafeAreaView style={{ marginTop: Top, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
+    <SafeAreaView style={{ marginTop: Top+50, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
 
       {/* Top Bar */}
       <View style={{ height: 55, borderWidth: 1, width: '100%', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row', padding: '2%' }}>
@@ -24,14 +24,13 @@ export default function DepartmentPage() {
       {/* Status */}
      <Text style={{fontSize:18,zIndex:-2}}>Let's Choose Your Best Department</Text>
 
-      <View style={{ flex: 1, borderBottomWidth: 1,zIndex:-2 }}>
+      <View style={{  borderBottomWidth: 1,zIndex:-2,marginTop:"2%" }}>
         <ScrollView>
                <Branch/>
                 <Branch/>
                 <Branch/>
                 <Branch/>
-                <Branch/>
-                <Branch/>
+               
         </ScrollView>
       </View>
 

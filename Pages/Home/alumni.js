@@ -25,7 +25,7 @@ export default function AlumniPage() {
       {/* Status */}
      <Text style={{fontSize:18,zIndex:-2,padding:10}}>Make Your self Upto Date</Text>
 
-      <View style={{ flex: 1, borderBottomWidth: 1,zIndex:-2 }}>
+      <View style={{ borderBottomWidth: 1,zIndex:-2 }}>
         <ScrollView>
               <Alumni/>
               <Alumni/>

@@ -3,7 +3,7 @@ import { View,Text,ImageBackground,Image } from 'react-native'
 
 export default function Alumni() {
   return (
-    <View>
+    <View style={{marginBottom:"2%"}}>
     <ImageBackground
     source={{uri:"https://th.bing.com/th/id/OIP.GgVivFX4AsNMLn8qr3w9kgHaEi?pid=ImgDet&rs=1"}}
     style={{width:360,height:278,justifyContent:"flex-end",bordertRadius:10}} >

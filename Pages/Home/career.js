@@ -10,7 +10,7 @@ const Top = StatusBar.currentHeight;
 
 export default function CareerPage() {
   return (
-    <SafeAreaView style={{ marginTop: Top, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
+    <SafeAreaView style={{ marginTop: Top+50, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
 
       {/* Top Bar */}
       <View style={{ height: 55, borderWidth: 1, width: '100%', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row', padding: '2%' }}>
@@ -24,7 +24,7 @@ export default function CareerPage() {
       {/* Status */}
      <Text style={{fontSize:18,zIndex:-2}}>Let's Choose Your Career</Text>
 
-      <View >
+      <View style={{zIndex:-2}}>
         <ScrollView>
                 <Department/>
                 <Department/>

@@ -3,7 +3,7 @@ import { View,Text,Image } from 'react-native'
 
 export default function Branch() {
   return (
-    <View style={{width:314,height:98,borderWidth:1,margin:"6%",borderRadius:10,backgroundColor:"#BAC4CB",justifyContent:"space-between",alignItems:"center",display:"flex",flexDirection:"row",padding:"2%"}}>
+    <View style={{width:314,height:98,borderWidth:1,marginBottom:"6%",borderRadius:10,backgroundColor:"#BAC4CB",justifyContent:"space-between",alignItems:"center",display:"flex",flexDirection:"row",padding:"2%"}}>
         <View style={{width:70,height:64,borderRadius:50,borderWidth:1}}>
         <Image source={{uri:"https://wallpapercave.com/wp/wp9554504.jpg"}} style={{width:70,height:64,borderRadius:50}}/>
         </View>

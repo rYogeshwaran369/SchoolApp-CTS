@@ -22,9 +22,8 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-   <NavigationContainer>
+    <NavigationContainer>
     <Stack.Navigator>
-
     <Stack.Screen name="Login" options={{headerShown:false}} component={Login} />
       <Stack.Screen name="Forgot" options={{headerShown:false}} component={Forgot} />
       <Stack.Screen name="Otp" options={{headerShown:false}} component={Otp} />
@@ -37,9 +36,6 @@ export default function App() {
       <Stack.Screen name="CurrentUpdatePage" options={{headerShown:false}} component={CurrentUpdatePage} />
       <Stack.Screen name="AlumniPage" options={{headerShown:false}} component={AlumniPage} />
       <Stack.Screen name="SportsPage" options={{headerShown:false}} component={SportsPage} />
-
-
-
     </Stack.Navigator>
    </NavigationContainer>
     
